@@ -1,0 +1,16 @@
+[project]
+name = "truvane"
+version = "0.1.0"
+description = "Official Python SDK for the Truvane image forensics API"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+authors = [{name = "Truvane"}]
+dependencies = ["httpx>=0.24"]
+
+[project.urls]
+Homepage = "https://truvane.ai"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
