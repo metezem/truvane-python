@@ -4,9 +4,15 @@ Official Python SDK for the [Truvane Image](https://truvane.ai) forensics API â€
 
 ## Install
 
+Not yet published to PyPI â€” install from source until it is:
+
 ```
-pip install truvane
+git clone https://github.com/metezem/truvane-python.git
+cd truvane-python
+pip install .
 ```
+
+Once published, this will become `pip install truvane`.
 
 ## Usage
 
